@@ -1,0 +1,292 @@
+.wrapper {
+  height: 650px;
+  overflow: hidden;
+}
+
+.accordion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 650px;
+  width: 100%;
+}
+
+.skew-block {
+  position: relative;
+  height: 650px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+          transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+}
+
+.skew-block:first-child {
+  margin-left: -240px;
+}
+
+.img {
+  width: 20%;
+  cursor: pointer;
+  display: block;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.item-img {
+  height: 650px;
+  width: 100%;
+  background-size: 1200px 650px !important;
+  top: 0px;
+  position: absolute;
+  left: -120px;
+  -webkit-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+          transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+}
+
+.item-img-agro {
+  background: url(../img/Agroteh.jpg);
+  background-position-x: -475px;
+}
+
+.item-img-car {
+  background: url(../img/car.png);
+  background-position-x: -475px;
+}
+
+.item-img-runk {
+  background: url(../img/runkers.jpg);
+  background-position-x: -286px;
+}
+
+.item-img-spec {
+  background: url(../img/spectehnika.jpg);
+  background-position-x: -400px;
+}
+
+.item-img-rail {
+  background: url(../img/railway.jpg);
+  background-position-x: -690px;
+}
+
+.item-img img {
+  width: 130%;
+  height: 650px;
+}
+
+.item-img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#block_text {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 650px;
+  width: 810px;
+  padding-left: 244px;
+  padding-top: 170px;
+}
+
+#block_text h1 {
+  font-size: 36px;
+  font-family: 'GhotamProBlack';
+  margin-bottom: 42px;
+}
+
+#block_text h3 {
+  font-size: 14px;
+  font-family: 'GhotamProBlack';
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+#block_text > ul li {
+  font-size: 14px;
+  width: 300px;
+  line-height: 1.5;
+}
+
+.image-text {
+  position: absolute;
+  top: 40%;
+  font-size: 56px;
+  text-align: center;
+  left: -2%;
+  -webkit-transform: rotate(-70deg);
+          transform: rotate(-70deg);
+  font-family: 'GhotamProBlack';
+  color: white;
+}
+
+@font-face {
+  font-family: 'GhotamProBlack';
+  src: url("../font/11024.ttf");
+}
+
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  background: white;
+}
+
+.footer_block {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.baner {
+  padding-top: 80px;
+}
+
+.baner button {
+  width: 238px;
+  height: 54px;
+  background: #1c7fff;
+  color: white;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 50px;
+  font-family: 'GhotamProBlack';
+}
+
+.baner h1 {
+  font-size: 48px;
+  color: #363636;
+  font-family: 'GhotamProBlack';
+}
+
+.baner p {
+  font-size: 18px;
+  width: 385px;
+  line-height: 2;
+  margin-top: 50px;
+}
+
+.baner span {
+  font-weight: bold;
+}
+
+.client {
+  position: relative;
+}
+
+.client ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 43px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 360px;
+  width: 645px;
+}
+
+.client ul li {
+  width: 200px;
+  height: 143px;
+  text-align: center;
+  line-height: 130px;
+}
+
+.client ul li img {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.client_grey {
+  display: none;
+}
+
+.client_grey ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 95px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 265px;
+  width: 395px;
+}
+
+#back {
+  width: 100%;
+  height: 0%;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+
+#popup {
+  display: none;
+  width: 90%;
+  height: 350px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 5%;
+  border-bottom: 3px solid #cccccc;
+  z-index: 10;
+}
+
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#close {
+  position: absolute;
+  right: 4px;
+  top: -1px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#closethere {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 8;
+}
+/*# sourceMappingURL=style.css.map */

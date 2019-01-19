@@ -1,0 +1,140 @@
+
+@media (max-width: 1050px) {
+    .baner {
+        padding-top: 40px;
+    }
+
+    .baner h1 {
+        font-size: 35px;
+    }
+    
+    .baner p {
+        font-size: 16px;
+        width: 258px;
+        line-height: 25px;
+        margin-top: 35px;
+    }
+
+    .client ul{
+        width: 485px;
+    }
+    .client ul li{
+        width: 159px;
+        height: 88px;
+        line-height: 80px;
+    }
+
+    .client ul li:first-child{
+    margin-top: -30px;
+    }
+    .client ul li:last-child{
+    margin-left: -20px;
+    }
+}   
+
+@media (max-width: 768px) {
+    .footer_block {
+        padding-bottom: 90px;
+    }
+
+    .baner h1 {
+        font-size: 30px;
+    }
+    
+    .baner button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 933px;
+        margin: 0 auto;
+    }
+
+    .client ul {
+        width: 390px;
+    }
+    .client ul li:first-child {
+        margin-top: 0px;
+    }
+    .client ul li img {
+        opacity: 0;
+    }
+    .client_grey ul li img {
+        opacity: 1;
+    }
+
+    .client_grey {
+        display: block;
+        
+    }
+    .client > ul{
+       display: none;
+    }
+
+    .client ul li{
+        width: 130px;
+        height: 88px;
+        text-align: center;
+        line-height: 130px;
+    }
+    .client_grey ul {
+        padding-top: 0px;
+    }
+
+}
+
+@media (max-width: 705px) {
+    .footer_block {
+        padding-bottom: 130px;
+        flex-direction: column;
+    }
+    .baner {
+        padding-top: 35px;
+        position: relative;
+    }
+    .baner h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .baner p {
+        font-size: 12px;
+        width: 78%;
+        padding-top: 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .baner span {
+        font-weight: normal;
+    }
+
+    .baner button {
+        top: 516px;
+    }
+
+    .client ul li img {
+        width: 80px;
+    }
+
+    .client ul li {
+        width: 80px;
+    }
+
+    .client_grey ul {
+        margin: 0 auto;
+        width: 285px;
+    }
+    #popup {
+        font-size: 12px;
+    }
+    #popup h1 {
+        font-size: 12px;
+    }
+
+    #popup ul {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+}
